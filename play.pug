@@ -8,3 +8,8 @@
 
 h1 #{pageTitle}
 p #{pageCaption}
+
+mixin image(name, caption)
+ figure
+  img(src=name + ".jpg")
+  figcaption= caption
